@@ -101,4 +101,5 @@ client.on("messageCreate", async (message) => {
   await message.delete();
 });
 
-client.login("MTQ2NjM0MTU1MjI1NDM1NzU0Nw.G9zZHM.FydnzWM8dMGfTL8oHKEYLKoUoFn9sJqnZm4ipM");
+
+client.login(process.env.TOKEN);
